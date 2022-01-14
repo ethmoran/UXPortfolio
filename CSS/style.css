@@ -1,7 +1,17 @@
 nav {
     background-color: grey;
 }
+.logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+      }
 
+    .artwork {
+        display: flex;
+        flex-direction: column;
+    }
 footer {background-color: grey;}
 
 .about {background-color: rgb(253, 253, 253);}
