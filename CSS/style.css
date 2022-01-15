@@ -10,8 +10,20 @@ nav {
 
     .artwork {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: flex-end;
     }
-footer {background-color: grey;}
+.artimages {
+    position: relative;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+.stotlecover {
+    position: absolute;
+    top: 105px;
+    left: 120px;
+
+}
+    footer {background-color: grey;}
 
 .about {background-color: rgb(253, 253, 253);}
