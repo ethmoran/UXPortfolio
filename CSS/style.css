@@ -59,4 +59,7 @@ position: absolute;
  }
 footer {background-color: grey;}
 
-.about {background-color: rgb(253, 253, 253);}
+.about
+ {background-color: rgb(253, 253, 253);
+margin-top: 125px; 
+}
