@@ -1,10 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 .nav {
     background-color: grey;
 }
 .navbar {
     overflow: hidden;
     background-color: #333;
-    position: fixed; 
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
     top: 0;
     width: 100%; 
     z-index: 1;
